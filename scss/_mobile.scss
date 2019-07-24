@@ -21,6 +21,7 @@
     .lg-heading {
       line-height: 1;
       margin-bottom: 1rem;
+      font-size: 5rem;
     }
   }
 
@@ -46,19 +47,19 @@
     transform: translate3d(100%, 0, 0);
 
     .portrait {
-      background: url('../img/portrait_small.jpg');
-      width: 150px;
-      height: 150px;
+      background: url("../img/portrait_small.jpg") 140px 145px;
+      width: 130px;
+      height: 130px;
     }
   }
 
   .about-info {
     grid-template-areas:
-      'bioimage'
-      'bio'
-      'job1'
-      'job2'
-      'job3';
+      "bioimage"
+      "bio"
+      "job1"
+      "job2"
+      "job3";
 
     grid-template-columns: 1fr;
   }
@@ -77,8 +78,7 @@
     }
 
     .lg-heading {
-      margin-top:1rem;
-      font-size: 5rem;
+      margin-top: 1rem;
     }
   }
 
