@@ -129,13 +129,10 @@ main {
       @include easeOut;
     }
   }
-<<<<<<< HEAD
 
   p:hover {
     cursor: pointer;
   }
-=======
->>>>>>> 8e3919f61d9c8e974935774c6f0b38c3482b0f10
 }
 
 // Contact Page
@@ -173,10 +170,6 @@ main {
   &:hover {
     background: $secondary-color;
     color: set-text-color($secondary-color);
-<<<<<<< HEAD
-=======
-    cursor: pointer;
->>>>>>> 8e3919f61d9c8e974935774c6f0b38c3482b0f10
   }
 }
 
