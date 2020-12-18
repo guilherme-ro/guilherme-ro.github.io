@@ -196,7 +196,7 @@ main {
       border-color: #eece1a;
       transition: all 0.5s ease-out; }
   .projects p:hover {
-    cursor: pointer; }
+    cursor: alias; }
 
 .boxes {
   display: flex;
@@ -228,8 +228,7 @@ main {
 
 .btn-dark {
   background: black;
-  color: #fff;
-  cursor: unset; }
+  color: #fff; }
 
 .btn-light {
   background: #c4c4c4;

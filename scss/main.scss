@@ -134,7 +134,7 @@ main {
   }
 
   p:hover {
-    cursor: pointer;
+    cursor: alias;
   }
 }
 
@@ -180,7 +180,6 @@ main {
   @extend .btn;
   background: darken($primary-color, 50);
   color: #fff;
-  cursor: unset;
 }
 
 .btn-light {
