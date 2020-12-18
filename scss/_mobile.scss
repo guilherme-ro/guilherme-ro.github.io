@@ -99,7 +99,7 @@
   }
 
   #work {
-    padding-top:: 80px;
+    padding-top: 80px;
     & .lg-heading {
       line-height: 1;
       margin-bottom: 1rem;
@@ -108,6 +108,11 @@
 
     & .sm-heading {
       font-size: 1.5rem;
+    }
+
+    .link-projects {
+      display: flex;
+      justify-content: space-between;
     }
   }
 

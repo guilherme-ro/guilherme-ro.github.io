@@ -305,6 +305,10 @@ main {
       font-size: 3rem; }
     #work .sm-heading {
       font-size: 1.5rem; }
+      .link-projects {
+        display: flex;
+        justify-content: space-between;
+      }
   .projects {
     grid-template-columns: repeat(2, 1fr); }
   #contact {
