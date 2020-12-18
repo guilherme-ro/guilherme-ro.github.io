@@ -132,6 +132,7 @@ h3 {
 
 a {
   color: #fff;
+  display: block;
   text-decoration: none; }
 
 header {
@@ -188,6 +189,7 @@ main {
   grid-template-columns: repeat(3, 1fr); }
   .projects img {
     width: 100%;
+    min-height: 251px;
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
@@ -226,7 +228,8 @@ main {
 
 .btn-dark {
   background: black;
-  color: #fff; }
+  color: #fff;
+  cursor: unset; }
 
 .btn-light {
   background: #c4c4c4;
